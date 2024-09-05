@@ -239,18 +239,29 @@ background-color: rgb(132, 233, 211);
 }
 .footer-together{
     padding-top: 2rem;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 .footer-together p{
     gap: 5rem;
 }
 .links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     padding-top: 2rem;
 }
 .follow{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     padding-top: 2rem;
 }
 .terms{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     padding-top: 2rem;
 }
 .uganda{
@@ -259,6 +270,28 @@ background-color: rgb(132, 233, 211);
     padding: 5rem 2rem 2rem 10rem;
     color: white;
     gap: 3rem;
+
+}
+.popular{
+    width: 20rem;
+    height: 6rem;
+}
+.top-popular{
+    width: 20rem;
+    height: 3rem;
+}
+.bottom-popular{
+    width: 20rem;
+    height: 3rem;
     display: flex;
+    gap: 2rem;
+}
+.top-famous{
+    width: 20rem;
+    height: 3rem;
+}
+.bottom-famous{
+    display: flex;
+    gap: 2rem; 
 }
 
