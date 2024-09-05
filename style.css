@@ -222,7 +222,6 @@ scale: .8;
     gap: 4rem;
     padding: 2rem;
     justify-content: center;
-    background: image();
 }
 .become-a-pantner button{
 margin-top: 2rem;
@@ -235,6 +234,31 @@ background-color: rgb(132, 233, 211);
     background-color: black;
     padding: 5rem 2rem 2rem 10rem;
     color: white;
+    gap: 3rem;
+    display: flex;
 }
-
+.footer-together{
+    padding-top: 2rem;
+    gap: 2rem;
+}
+.footer-together p{
+    gap: 5rem;
+}
+.links{
+    padding-top: 2rem;
+}
+.follow{
+    padding-top: 2rem;
+}
+.terms{
+    padding-top: 2rem;
+}
+.uganda{
+    width: 100%;
+    background-color: black;
+    padding: 5rem 2rem 2rem 10rem;
+    color: white;
+    gap: 3rem;
+    display: flex;
+}
 
